@@ -1,0 +1,54 @@
+/* Custom styles */
+:root {
+    --primary-bg: #1a1325;
+    --secondary-bg: #2d1f42;
+    --card-bg: #231833;
+    --primary-text: #ffffff;
+    --secondary-text: #b4a5d0;
+    --button-default: #4318d1;
+    --button-hover: #5829e3;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  /* Skill bar animations */
+  .skill-progress {
+    transition: width 1s ease-in-out;
+  }
+  
+  /* Ensure footer stays at bottom */
+  .site-footer {
+    margin-top: auto;
+  }
+  
+  /* Mobile optimizations */
+  @media (max-width: 640px) {
+    .social-links {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .social-links a {
+      margin: 0.5rem;
+    }
+  }
+  
+  /* Focus styles for better accessibility */
+  a:focus,
+  button:focus {
+    outline: 2px solid var(--button-hover);
+    outline-offset: 2px;
+  }
+  
+  /* Smooth transitions */
+  .contact-btn,
+  .social-links a {
+    transition: all 0.2s ease-in-out;
+  }
+  
