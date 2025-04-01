@@ -1,6 +1,6 @@
 import React from 'react';
 import { FiLinkedin, FiGithub, FiTwitter, FiMail } from 'react-icons/fi';
-import './footer.css';
+import './Footer.css';
 
 const Footer: React.FC = () => {
     return (
