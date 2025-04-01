@@ -8,7 +8,7 @@ const Hero = () => {
         <h2 className="subtitulo">Transformando ideias em experiências digitais excepcionais</h2>
       </div>
       <div className="hero-image">
-        <img src="\src\assets\eu.png" alt="Descrição da imagem" />
+        <img src="..\src\assets\eu.png" alt="Descrição da imagem" />
       </div>
     </div>
   );

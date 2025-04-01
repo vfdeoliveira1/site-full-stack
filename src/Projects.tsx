@@ -59,7 +59,7 @@ const Projects: React.FC = () => {
       id: '1',
       title: "Xadrez em Java",
       description: "Este projeto consistiu no desenvolvimento de um jogo de xadrez em Java, iniciando pela implementação da lógica do jogo, com classes para cada peça e regras de movimentação, e evoluindo para a criação de uma interface gráfica interativa utilizando Java Swing. O sistema gerenciava turnos, validava jogadas e detectava o fim do jogo, proporcionando uma experiência funcional e visualmente intuitiva. O projeto fortaleceu o conhecimento em POO, manipulação de eventos gráficos e estruturação de jogos baseados em regras.",
-      imageUrl: "/images/javaxadrez.png",
+      imageUrl: "../images/javaxadrez.png",
       githubRepo: "#",
       projectLink: "#"
     },
@@ -67,7 +67,7 @@ const Projects: React.FC = () => {
       id: '2',
       title: "Calculadora de Idades",
       description: "Este projeto foi desenvolvido utilizando React e JavaScript, com o objetivo de criar uma calculadora de idade interativa. A aplicação permite que o usuário insira sua data de nascimento e, ao processar a entrada, exibe sua idade exata em anos, meses e dias. Para a gestão de estados e reatividade da interface, foram utilizados React Hooks, como useState para armazenar os valores inseridos e useEffect para atualizar dinamicamente o cálculo da idade. O projeto proporcionou um aprofundamento na manipulação de datas em JavaScript e na construção de componentes reutilizáveis dentro do ecossistema React, garantindo uma experiência fluida e responsiva para o usuário.",
-      imageUrl: "/images/calculadora.png",
+      imageUrl: "../images/calculadora.png",
       githubRepo: "https://github.com/vfdeoliveira1/age-calculator",
       projectLink: "https://age-calculator-vinio.vercel.app/"
     },
@@ -75,7 +75,7 @@ const Projects: React.FC = () => {
       id: '3',
       title: "Site Calangotec Baja",
       description: "Este projeto foi desenvolvido por uma equipe da CalangoTec Baja, da qual faço parte, com o objetivo de criar um site para apresentar a história da iniciativa e detalhar seus subsistemas. A CalangoTec Baja é um projeto estudantil dedicado à construção de protótipos off-road para competições, e o site serve como uma plataforma para divulgar nosso trabalho e atrair novos membros e apoiadores. Utilizamos React, Vite e TypeScript para garantir uma aplicação moderna, eficiente e bem estruturada, aproveitando a velocidade do Vite no desenvolvimento e a segurança do TypeScript na tipagem. O projeto proporcionou uma experiência prática em desenvolvimento web colaborativo, reforçando habilidades em componentização, otimização de desempenho e boas práticas com TypeScript.",
-      imageUrl: "/images/logoBaja.svg",
+      imageUrl: "../images/logoBaja.svg",
       githubRepo: "#",
       projectLink: "#"
     }
