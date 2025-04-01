@@ -1,0 +1,48 @@
+/* NavBar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Ajuste o padding para mudar a altura */
+    background-color: #2d1f42; /* Cor de fundo do cabeçalho */
+    border-bottom: 1px solid #dee2e6; /* Borda inferior */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Transição suave */
+    position: relative; /* Posição padrão */
+    z-index: 1000; /* Garante que o cabeçalho fique acima de outros elementos */
+  }
+  
+  .sticky {
+    position: fixed; /* Fixa o cabeçalho no topo */
+    top: 0; /* Fica fixo no topo */
+    left: 0; /* Alinha à esquerda */
+    right: 0; /* Alinha à direita */
+    background-color: #2d1f42; /* Cor de fundo quando fixo */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para destaque */
+  }
+  
+  .left {
+    flex: 1;
+  }
+  
+  .name {
+    margin: 0;
+    color: white; /* Cor do texto do nome */
+    font-size: 1.5rem; /* Tamanho da fonte do nome */
+  }
+  
+  .right {
+    display: flex;
+    gap: 15px; /* Espaçamento entre os links */
+  }
+  
+  .link {
+    text-decoration: none;
+    color: white; /* Cor do texto dos links */
+    font-size: 1rem; /* Tamanho da fonte dos links */
+    transition: color 0.3s; /* Efeito de transição para hover */
+  }
+  
+  .link:hover {
+    color: #ffcc00; /* Cor do texto ao passar o mouse */
+  }

@@ -1,0 +1,33 @@
+.hero-container {
+    display: flex; /* Usando flexbox para layout */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: flex-start; /* Alinha os itens à esquerda */
+    padding: 20px; /* Adiciona espaçamento interno */
+  }
+  
+  .hero-text {
+    flex: 1; /* Permite que o texto ocupe o espaço disponível */
+    text-align: center; /* Alinha o texto ao centro */
+  }
+  
+  .hero-image {
+    margin-right: 20px; /* Adiciona espaço entre a imagem e o texto */
+  }
+  
+  .hero-image img {
+    width: 300px; /* Define a largura da imagem */
+    height: 300px; /* Define a altura da imagem */
+    border-radius: 50%; /* Faz a borda circular */
+    object-fit: cover; /* Garante que a imagem se ajuste ao contêiner sem distorção */
+  }
+  
+  .titulo {
+    font-size: 24px; /* Tamanho da fonte do título */
+    font-weight: bold; /* Negrito */
+    margin: 0; /* Remove margens padrão */
+  }
+  
+  .subtitulo {
+    font-size: 18px; /* Tamanho da fonte do subtítulo */
+    margin-top: 10px; /* Espaçamento entre título e subtítulo */
+  }

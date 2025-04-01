@@ -1,0 +1,35 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #2d1f42;
+    color: white;
+}
+
+.footer-left, .footer-center, .footer-right {
+    flex: 1;
+}
+
+.footer-left {
+    text-align: left;
+}
+
+.footer-center {
+    text-align: center;
+}
+
+.footer-right {
+    text-align: right;
+}
+
+.footer-right a {
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.footer-right a:hover {
+    color: #61dafb; /* Cor ao passar o mouse */
+}

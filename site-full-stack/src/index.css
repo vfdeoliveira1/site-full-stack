@@ -1,0 +1,123 @@
+:root {
+  --primary-bg: #0f0a1a;
+  --nav-bg: #1a1030;
+  --secondary-bg: #1e1238;
+  --card-bg: #241740;
+  --card-hover: #2d1f4a;
+  --primary-text: #ffffff;
+  --secondary-text: #c7b8e4;
+  --accent-color: #7c4dff;
+  --accent-hover: #9068ff;
+  --button-default: #7c4dff;
+  --button-hover: #9068ff;
+  --gradient: linear-gradient(135deg, #7c4dff 0%, #3a1cff 100%);
+  --card-light-purple: #3a2a5a;
+  --card-light-purple-hover: #4a3570;
+  /* Mantenha suas cores existentes e adicione: */
+  --card-purple: #3a2a5a;
+  --card-purple-hover: #4a3570;
+  --card-border: #4d3b6e;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--primary-bg);
+  color: var(--primary-text);
+  line-height: 1.6;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Animações */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+/* Transições */
+.transition-all {
+  transition: all 0.3s ease;
+}
+
+.hover-scale:hover {
+  transform: scale(1.02);
+}
+
+/* Scroll personalizado */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--primary-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent-color);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-hover);
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.project-card {
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.project-card.expanded {
+  height: auto !important;
+}
+
+.project-card.collapsed {
+  height: 96px !important; /* Altura quando fechado */
+}
+
+/* Adicione isso ao seu index.css */
+.nav-button {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-icon {
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.social-icon:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
