@@ -74,9 +74,10 @@ const Projects: React.FC = () => {
     {
       id: '3',
       title: "Site Calangotec Baja",
-      description: "Gerenciador de tarefas com React e Firebase.",
-      imageUrl: "https://via.placeholder.com/400x200?text=Task+Manager",
-      githubRepo: "#"
+      description: "Este projeto foi desenvolvido por uma equipe da CalangoTec Baja, da qual faço parte, com o objetivo de criar um site para apresentar a história da iniciativa e detalhar seus subsistemas. A CalangoTec Baja é um projeto estudantil dedicado à construção de protótipos off-road para competições, e o site serve como uma plataforma para divulgar nosso trabalho e atrair novos membros e apoiadores. Utilizamos React, Vite e TypeScript para garantir uma aplicação moderna, eficiente e bem estruturada, aproveitando a velocidade do Vite no desenvolvimento e a segurança do TypeScript na tipagem. O projeto proporcionou uma experiência prática em desenvolvimento web colaborativo, reforçando habilidades em componentização, otimização de desempenho e boas práticas com TypeScript.",
+      imageUrl: "/images/logoBaja.svg",
+      githubRepo: "#",
+      projectLink: "#"
     }
   ];
 
